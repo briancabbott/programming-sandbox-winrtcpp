@@ -1,0 +1,5 @@
+﻿  WinRTCpp_Wireless_Main.cpp
+WinRTCpp_Wireless_Main.obj : error LNK2019: unresolved external symbol _WINRT_GetRestrictedErrorInfo@4 referenced in function "public: __thiscall winrt::hresult_error::hresult_error(long,struct winrt::hresult_error::from_abi_t)" (??0hresult_error@winrt@@QAE@JUfrom_abi_t@01@@Z)
+WinRTCpp_Wireless_Main.obj : error LNK2019: unresolved external symbol _WINRT_RoInitialize@4 referenced in function "void __cdecl winrt::init_apartment(enum winrt::apartment_type)" (?init_apartment@winrt@@YAXW4apartment_type@1@@Z)
+WinRTCpp_Wireless_Main.obj : error LNK2019: unresolved external symbol _WINRT_RoOriginateLanguageException@12 referenced in function "public: __thiscall winrt::hresult_error::hresult_error(long,struct winrt::hresult_error::from_abi_t)" (??0hresult_error@winrt@@QAE@JUfrom_abi_t@01@@Z)
+D:\Workspace\programming-sandbox-winrtcpp\WinRT CPP Tests\Debug\WinRTCpp_Wireless.exe : fatal error LNK1120: 3 unresolved externals
